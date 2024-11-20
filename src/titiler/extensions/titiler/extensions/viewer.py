@@ -62,6 +62,7 @@ class stacViewerExtension(FactoryExtension):
                     ),
                     "info_endpoint": factory.url_for(request, "info_geojson"),
                     "statistics_endpoint": factory.url_for(request, "asset_statistics"),
+                    "renders_endpoint": "http://localhost:8081/stac/renders",  # factory.url_for(request, "renders"),
                 },
                 media_type="text/html",
             )
