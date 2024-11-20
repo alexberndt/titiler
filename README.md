@@ -154,3 +154,5 @@ See [CHANGES.md](https://github.com/developmentseed/titiler/blob/main/CHANGES.md
 
 Using 
 https://api.cogeo.xyz/stac/crop/14.869,37.682,15.113,37.862/256x256.png?url=https://raw.githubusercontent.com/alexberndt/titiler/refs/heads/add-render-endpoints/examples/item-sentinel2.json&assets=B12,B8A,B04&resampling_method=average&rescale=0,5000,0,7000,0,9000&return_mask=true 
+
+https://raw.githubusercontent.com/alexberndt/titiler/refs/heads/add-render-endpoints/examples/item-sentinel2.json
