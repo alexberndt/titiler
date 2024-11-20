@@ -1457,12 +1457,7 @@ class MultiBaseTilerFactory(TilerFactory):
                         type="Feature",
                         bbox=bounds,
                         geometry=geometry,
-                        properties={
-                            asset: asset_info
-                            for asset, asset_info in src_dst.info(
-                                **asset_params.as_dict()
-                            ).items()
-                        },
+                        properties=dict(src_dst.info(**asset_params.as_dict()).items()),
                     )
 
         @self.router.get(
